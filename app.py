@@ -16,12 +16,13 @@ nltk.download('stopwords')
 # ---------- STREAMLIT APP STYLING ----------
 st.set_page_config(page_title="AI Resume Scanner", page_icon="🤖")
 
-
 st.markdown(
     """
     <style>
     .stApp {
-        background-color: #008081;  /* Royal Blue */
+        background: url("https://imgs.search.brave.com/zqDcwD6JFkFqIjqFFN2_R43HPlNfYTDK-AQJ5yjOXB0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/ZGFyay1sb3ctcG9s/eS1iYWNrZ3JvdW5k/XzEwNDgtNzk3MS5q/cGc_c2VtdD1haXNf/aHlicmlkJnc9NzQw/JnE9ODA");
+        background-size: cover;
+        background-position: center;
         color: white;
     }
     .stTextArea textarea, .stTextInput input {
